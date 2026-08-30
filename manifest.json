@@ -1,0 +1,9 @@
+{
+  "name": "LinkedIn Job Search Dashboard",
+  "short_name": "LinkedIn Jobs",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#0a66c2",
+  "description": "Last 24 hours LinkedIn job and hiring-post search dashboard."
+}
