@@ -1,55 +1,152 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LinkedIn Job Search Dashboard</title><style>
-/* =========================================================
-   PREMIUM JOB DASHBOARD UI/UX
-   Works with the existing dashboard — no search data changes
-   ========================================================= */
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LinkedIn Job Search Dashboard</title><style>*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f3f6fa;color:#172033}.wrap{max-width:1250px;margin:auto;padding:28px}header{background:linear-gradient(135deg,#0a66c2,#004182);color:white;padding:28px;border-radius:18px;margin-bottom:20px}h1{margin:0 0 8px}.sub{margin:0;opacity:.9}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}button{border:0;border-radius:10px;padding:12px 16px;font-weight:700;cursor:pointer}.main{background:#ffd54a;color:#172033}.close{background:#ffffff22;color:#fff;border:1px solid #ffffff55}.info,section{background:#fff;border-radius:16px;padding:20px;margin-bottom:20px;box-shadow:0 4px 16px #0000000d}.info{border-left:4px solid #0a66c2}.head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:15px}h2{margin:0}small{color:#667085}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}a{text-decoration:none;color:#07579f;background:#eef5fc;border:1px solid #d6e7f8;padding:10px;border-radius:9px;font-weight:600}a:hover{background:#e2f0ff}footer{text-align:center;color:#667085;font-size:13px}@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.grid{grid-template-columns:1fr}.wrap{padding:14px}}
+.category{background:#fff;border-radius:16px;padding:20px;margin-bottom:20px;box-shadow:0 4px 16px #0000000d}
+.category-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:15px}
+.category-head h2{margin:0}
+.category-head h2 span{color:#667085;font-size:14px;font-weight:500}
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.links a{text-decoration:none;color:#07579f;background:#eef5fc;border:1px solid #d6e7f8;padding:10px;border-radius:9px;font-weight:600}
+.links a:hover{background:#e2f0ff}
+.cat-btn{background:#ffd54a;color:#172033;border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+@media(max-width:900px){.links{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.links{grid-template-columns:1fr}}
 
-:root{
-  --bg:#f4f7fb;--card:#ffffff;--text:#172033;--muted:#667085;
-  --primary:#0a66c2;--primary-dark:#004182;--soft:#eef6ff;
-  --border:#dce7f3;--success:#12b76a;--warning:#f79009;--danger:#f04438;
-  --shadow:0 10px 30px rgba(16,24,40,.08);--shadow-hover:0 16px 38px rgba(16,24,40,.14);
+/* Mobile / Phone enhancements */
+@media (max-width: 600px) {
+  body { font-size: 14px; }
+  .wrap { padding: 10px; width: 100%; }
+  header { padding: 18px 14px; border-radius: 14px; }
+  h1 { font-size: 22px; line-height: 1.25; }
+  .sub { font-size: 13px; line-height: 1.45; }
+  .actions { display: grid; grid-template-columns: 1fr; gap: 8px; }
+  .actions button { width: 100%; min-height: 46px; font-size: 14px; }
+  .info, section, .category { padding: 14px; border-radius: 13px; }
+  .head, .category-head { align-items: stretch; }
+  .head h2, .category-head h2 { font-size: 18px; }
+  .head button, .category-head button, .cat-btn { width: 100%; min-height: 44px; }
+  .grid, .links { grid-template-columns: 1fr !important; gap: 8px; }
+  .grid a, .links a {
+    display: block;
+    width: 100%;
+    min-height: 46px;
+    padding: 12px;
+    font-size: 14px;
+  }
+  footer { padding: 10px 4px 20px; line-height: 1.5; }
 }
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:radial-gradient(circle at top right,rgba(10,102,194,.07),transparent 28%),var(--bg);color:var(--text);line-height:1.5}
-.wrap{max-width:1400px;margin:auto;padding:24px}
-header{position:relative;overflow:hidden;background:linear-gradient(135deg,#0a66c2 0%,#004182 55%,#002d5c 100%);color:#fff;padding:34px;border-radius:24px;margin-bottom:20px;box-shadow:0 18px 45px rgba(0,65,130,.22)}
-header:before{content:"";position:absolute;width:300px;height:300px;right:-120px;top:-160px;background:rgba(255,255,255,.08);border-radius:50%}
-header:after{content:"";position:absolute;width:180px;height:180px;left:-100px;bottom:-110px;background:rgba(255,255,255,.06);border-radius:50%}
-header h1{position:relative;z-index:1;margin:0 0 8px;font-size:clamp(25px,4vw,38px);letter-spacing:-.7px}
-header .sub{position:relative;z-index:1;margin:0;opacity:.9;max-width:850px}
-.actions{position:relative;z-index:2;display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
-button{border:0;border-radius:12px;padding:12px 17px;font-weight:800;cursor:pointer;transition:.2s ease;font-size:14px}
-button:hover{transform:translateY(-2px)}button:active{transform:translateY(0)}
-.main{background:#ffd54a;color:#172033;box-shadow:0 7px 18px rgba(0,0,0,.12)}
-.close{background:rgba(255,255,255,.13);color:#fff;border:1px solid rgba(255,255,255,.28)}
-.info{background:linear-gradient(135deg,#fff,#f8fbff);border:1px solid var(--border);border-left:5px solid var(--primary);border-radius:18px;padding:20px;margin-bottom:20px;box-shadow:var(--shadow)}
-section,.category{background:rgba(255,255,255,.96);border:1px solid var(--border);border-radius:20px;padding:22px;margin-bottom:20px;box-shadow:var(--shadow);transition:.25s ease}
-section:hover,.category:hover{box-shadow:var(--shadow-hover)}
-.head,.category-head{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px}
-.head h2,.category-head h2{margin:0;font-size:21px;letter-spacing:-.25px}
-.category-head h2 span{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:24px;padding:0 8px;margin-left:5px;border-radius:20px;background:#eef5fc;color:#07579f;font-size:12px}
-.cat-btn{background:#0a66c2;color:#fff;box-shadow:0 5px 14px rgba(10,102,194,.2)}
-.cat-btn:hover{background:#004f9c}
-.grid,.links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}
-.grid a,.links a{position:relative;display:flex;align-items:center;min-height:48px;padding:12px 14px;border-radius:12px;text-decoration:none;color:#07579f;background:linear-gradient(135deg,#f3f8fd,#eaf4fc);border:1px solid #d5e6f6;font-weight:700;transition:.2s ease;overflow:hidden}
-.grid a:before,.links a:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:#0a66c2;transform:scaleY(0);transition:.2s ease}
-.grid a:hover,.links a:hover{transform:translateY(-2px);background:#fff;border-color:#9fc9eb;box-shadow:0 7px 18px rgba(10,102,194,.1)}
-.grid a:hover:before,.links a:hover:before{transform:scaleY(1)}
-.mobile-toolbar{display:none}
-footer{text-align:center;color:#667085;font-size:13px;padding:20px 10px 30px}
-::-webkit-scrollbar{width:9px}::-webkit-scrollbar-track{background:#eef2f6}::-webkit-scrollbar-thumb{background:#b9c9d9;border-radius:20px}::-webkit-scrollbar-thumb:hover{background:#8ea7bd}
-@media(max-width:1000px){.grid,.links{grid-template-columns:repeat(2,minmax(0,1fr))}.wrap{padding:18px}}
+
+/* Touch-friendly controls */
+button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+a { cursor: pointer; }
+
+.mobile-toolbar {
+  display:flex; justify-content:space-between; align-items:center; gap:10px;
+  background:#eaf4ff; border:1px solid #cfe5fa; border-radius:13px;
+  padding:10px 12px; margin:0 0 12px;
+}
+.mobile-toolbar div { display:flex; flex-direction:column; gap:2px; }
+.mobile-toolbar small { color:#667085; }
+.mobile-toolbar button { background:#fff; color:#07579f; padding:9px 12px; }
+@media (min-width:601px) { .mobile-toolbar { display:none; } }
+
+/* ===== PREMIUM INTERACTIVE UI ===== */
+:root{--accent:#0a66c2;--accent2:#00a6ff;--gold:#ffd54a;--ink:#172033;--glass:rgba(255,255,255,.78)}
+body{background:radial-gradient(circle at 15% 10%,rgba(0,166,255,.10),transparent 25%),radial-gradient(circle at 90% 20%,rgba(10,102,194,.12),transparent 28%),#f4f7fb;background-attachment:fixed}
+.wrap{max-width:1400px;animation:pageIn .65s ease both}
+header{position:relative;overflow:hidden;background:linear-gradient(135deg,#0a66c2,#004182 58%,#001d3a);box-shadow:0 20px 55px rgba(0,65,130,.25);border:1px solid rgba(255,255,255,.12);isolation:isolate}
+header:before,header:after{content:"";position:absolute;border-radius:50%;pointer-events:none;z-index:-1}
+header:before{width:360px;height:360px;right:-130px;top:-210px;background:radial-gradient(circle,rgba(255,255,255,.18),transparent 65%);animation:float 7s ease-in-out infinite}
+header:after{width:220px;height:220px;left:-120px;bottom:-150px;background:rgba(0,198,255,.13);animation:float 9s ease-in-out infinite reverse}
+header h1{animation:slideUp .65s ease both;text-shadow:0 4px 20px rgba(0,0,0,.18)}
+.sub{animation:slideUp .8s ease both}
+.actions button{position:relative;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.12)}
+.actions button:after,.cat-btn:after{content:"";position:absolute;top:0;left:-110%;width:70%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);animation:shine 4s infinite}
+.main{background:linear-gradient(135deg,#ffe477,#ffd54a);}
+.info,section,.category,.mobile-toolbar{backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:var(--glass);box-shadow:0 10px 32px rgba(16,24,40,.08);border-color:rgba(210,225,240,.9)}
+section,.category{position:relative;overflow:hidden}
+section:before,.category:before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:linear-gradient(90deg,#0a66c2,#00a6ff,#7c5cff);transform:scaleX(0);transform-origin:left;transition:transform .35s ease}
+section:hover:before,.category:hover:before{transform:scaleX(1)}
+section,.category{transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+section:hover,.category:hover{transform:translateY(-3px);box-shadow:0 18px 42px rgba(16,24,40,.13)}
+.grid a,.links a{position:relative;overflow:hidden;transition:transform .22s ease,box-shadow .22s ease,background .22s ease;border-radius:12px}
+.grid a:hover,.links a:hover{transform:translateY(-4px) scale(1.01);box-shadow:0 10px 24px rgba(10,102,194,.14)}
+.grid a:active,.links a:active{transform:scale(.98)}
+.grid a .link-arrow,.links a .link-arrow{transition:transform .2s ease}
+.grid a:hover .link-arrow,.links a:hover .link-arrow{transform:translate(3px,-2px)}
+.category-head h2 span,.head h2 small{background:#eef6ff;border-radius:999px;padding:3px 8px}
+.cat-btn{position:relative;overflow:hidden;background:linear-gradient(135deg,#0a66c2,#0874dc);color:#fff;box-shadow:0 8px 18px rgba(10,102,194,.22)}
+.cat-btn:hover{filter:brightness(1.06);transform:translateY(-2px)}
+/* Game HUD */
+.game-hud{display:grid;grid-template-columns:1.3fr .8fr .8fr;gap:10px;margin:0 0 18px}
+.game-card{background:linear-gradient(135deg,#fff,#f4f9ff);border:1px solid #d7e7f5;border-radius:16px;padding:13px 15px;box-shadow:0 8px 24px rgba(16,24,40,.07);position:relative;overflow:hidden}
+.game-card strong{display:block;color:#07579f;font-size:13px}.game-card b{font-size:22px;color:#172033}.game-card small{font-size:11px}
+.progress{height:7px;background:#e6edf4;border-radius:99px;overflow:hidden;margin-top:8px}.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,#0a66c2,#00b7ff,#7c5cff);border-radius:99px;transition:width .45s ease}
+.badge-pop{animation:badgePop .45s cubic-bezier(.2,.9,.3,1.3)}
+.confetti{position:fixed;z-index:9999;pointer-events:none;font-size:22px;animation:confetti 900ms ease-out forwards}
+footer{padding-top:24px}
+.dev-credit{font-weight:800;color:#07579f;letter-spacing:.2px}.dev-credit span{display:inline-block;animation:pulse 2s ease-in-out infinite}
+@keyframes pageIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes slideUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes float{50%{transform:translate3d(-18px,20px,0) scale(1.05)}}
+@keyframes shine{0%,65%{left:-110%}80%,100%{left:140%}}
+@keyframes badgePop{0%{transform:scale(.7)}70%{transform:scale(1.15)}100%{transform:scale(1)}}
+@keyframes pulse{50%{transform:scale(1.05)}}
+@keyframes confetti{0%{opacity:1;transform:translate(0,0) rotate(0)}100%{opacity:0;transform:translate(var(--x),var(--y)) rotate(600deg)}}
+@media(max-width:700px){.game-hud{grid-template-columns:1fr 1fr}.game-card:first-child{grid-column:1/-1}.game-card b{font-size:19px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* MOBILE FLOATING BACK-TO-TOP */
+#mobileBackToTop{
+  position:fixed;
+  right:16px;
+  bottom:18px;
+  z-index:9999;
+  width:52px;
+  height:52px;
+  border:1px solid rgba(255,255,255,.65);
+  border-radius:50%;
+  background:linear-gradient(135deg,#0a66c2,#004182);
+  color:#fff;
+  font-size:22px;
+  font-weight:900;
+  box-shadow:0 10px 28px rgba(0,65,130,.30);
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(18px) scale(.85);
+  transition:opacity .25s ease,visibility .25s ease,transform .25s ease,box-shadow .2s ease;
+  -webkit-tap-highlight-color:transparent;
+}
+#mobileBackToTop.show{
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0) scale(1);
+}
+#mobileBackToTop:active{
+  transform:scale(.92);
+}
+#mobileBackToTop:hover{
+  box-shadow:0 14px 32px rgba(0,65,130,.38);
+}
+#mobileBackToTop .top-arrow{
+  line-height:1;
+  display:block;
+  animation:topArrowFloat 1.7s ease-in-out infinite;
+}
+@keyframes topArrowFloat{
+  0%,100%{transform:translateY(1px)}
+  50%{transform:translateY(-3px)}
+}
+@media(min-width:651px){
+  #mobileBackToTop{display:none!important}
+}
 @media(max-width:650px){
- body{font-size:14px}.wrap{padding:10px}header{padding:22px 18px;border-radius:18px;margin-bottom:12px}header h1{font-size:24px}header .sub{font-size:13px}
- .actions{display:grid;grid-template-columns:1fr;gap:8px}.actions button{width:100%;min-height:47px}
- .info,section,.category{padding:15px;border-radius:16px;margin-bottom:13px}.head,.category-head{align-items:stretch}.head h2,.category-head h2{font-size:18px}.category-head button,.cat-btn{width:100%;min-height:45px}
- .grid,.links{grid-template-columns:1fr;gap:8px}.grid a,.links a{min-height:50px;padding:13px;font-size:14px}
- .mobile-toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#fff;border:1px solid var(--border);border-radius:14px;padding:10px 12px;margin-bottom:12px;box-shadow:0 5px 15px rgba(16,24,40,.06)}
- .mobile-toolbar strong{color:#07579f}.mobile-toolbar small{display:block;color:#667085;font-size:11px}.mobile-toolbar button{background:#eef5fc;color:#07579f;padding:9px 12px}
+  #mobileBackToTop{
+    bottom:calc(16px + env(safe-area-inset-bottom));
+  }
 }
-@media(max-width:380px){header h1{font-size:21px}.head h2,.category-head h2{font-size:17px}.grid a,.links a{font-size:13px}}
 </style>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0a66c2">
@@ -74,57 +171,70 @@ footer{text-align:center;color:#667085;font-size:13px;padding:20px 10px 30px}
 <section class="category"><div class="category-head"><h2>💼 Regular Jobs — Mumbai / Andheri <span>(5)</span></h2><button class="cat-btn" onclick='openUrls(["https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD"])'>🚀 OPEN ALL</button></div><div class="links"><a href="https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">🔎 Data Analyst – Mumbai</a><a href="https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">🔎 Business Analyst – Mumbai</a><a href="https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Mumbai&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">🔎 Power BI – Mumbai</a><a href="https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">🔎 MIS Executive – Mumbai / Andheri</a><a href="https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">🔎 Data Analyst – Andheri</a></div></section>
 <section class="category"><div class="category-head"><h2>💼 Regular Jobs — Pune <span>(4)</span></h2><button class="cat-btn" onclick='openUrls(["https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Pune&f_TPR=r86400&sortBy=DD"])'>🚀 OPEN ALL</button></div><div class="links"><a href="https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">🔎 Data Analyst – Pune</a><a href="https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">🔎 Business Analyst – Pune</a><a href="https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Pune&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">🔎 Power BI – Pune</a><a href="https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Pune&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">🔎 MIS Executive – Pune</a></div></section>
 </div>
-<footer>168 LinkedIn searches • Data Analyst • Business Analyst • Power BI • MIS • Hiring Posts • Location & Walk-in Searches</footer></div><script>const groups={"Data Analyst": ["Data Analyst", "Junior Data Analyst", "Data Analyst Intern", "Data Analytics Intern", "Associate Data Analyst", "Entry Level Data Analyst", "Business Data Analyst", "BI Analyst", "Reporting Analyst", "MIS Analyst", "Data Quality Analyst", "SQL Data Analyst", "Power BI Data Analyst", "Data Reporting Analyst", "Data Associate", "Analytics Associate", "Data Specialist", "Data Operations Analyst"], "Business Analyst": ["Business Analyst", "Junior Business Analyst", "Jr Business Analyst", "Associate Business Analyst", "Business Analyst Intern", "Business Analytics Intern", "Trainee Business Analyst", "Entry Level Business Analyst", "Business Systems Analyst", "Functional Business Analyst", "IT Business Analyst", "Business and Data Analyst", "Business Intelligence Analyst", "Business Process Analyst", "Business Operations Analyst", "Product Business Analyst"], "Power BI / BI": ["Power BI Developer", "Junior Power BI Developer", "Jr Power BI Developer", "Associate Power BI Developer", "Power BI Developer Intern", "PowerBI Developer Intern", "Power BI Analyst", "Power BI Data Analyst", "Power BI Developer / Analyst", "BI Developer", "Junior BI Developer", "BI Analyst", "Junior BI Analyst", "Business Intelligence Developer", "Business Intelligence Analyst", "Power BI Consultant", "Power BI Reporting Analyst", "Reporting Analyst Power BI", "Data Analyst Power BI", "Power BI Data Analytics", "BI Data Analyst", "Power BI Reporting Developer", "Microsoft Power BI Developer", "Power BI / SQL Developer"], "MIS Executive / Reporting": ["MIS Executive", "Junior MIS Executive", "MIS Executive Fresher", "MIS Executive Intern", "MIS Trainee", "MIS Coordinator", "MIS Analyst", "Junior MIS Analyst", "MIS Reporting Analyst", "Reporting Analyst", "Reporting Executive", "MIS Reporting Executive", "MIS Data Analyst", "Data MIS Executive", "MIS Data Executive", "Excel MIS Executive", "Excel Executive", "Data Reporting Executive", "Operations MIS Executive", "MIS Operations Executive", "Operations Reporting Executive", "Data Operations Executive", "Back Office MIS Executive"], "Hiring / Recruitment Posts": ["We're Hiring", "We're Hiring Data Analyst", "Hiring Data Analyst", "Hiring Now Data Analyst", "Immediate Joiner Data Analyst", "Data Analyst Hiring", "Junior Data Analyst Hiring", "Data Analyst Fresher Hiring", "Data Analyst Internship Hiring", "Data Analytics Hiring", "Hiring Business Analyst", "Junior Business Analyst Hiring", "Business Analyst Fresher Hiring", "Business Analyst Internship Hiring", "Hiring Power BI Developer", "Power BI Developer Hiring", "Power BI Fresher Hiring", "BI Developer Hiring", "Hiring MIS Executive", "MIS Executive Hiring", "MIS Fresher Hiring", "MIS Executive Vacancy", "Urgent Hiring", "Immediate Hiring", "Walk-in Interview", "Walk-in Drive", "Open Positions", "Job Vacancy", "Freshers Hiring", "Immediate Joiners"]};let tabs=[];function makeUrl(j,p){let e=encodeURIComponent(j).replace(/%20/g,'+');return p?'https://www.linkedin.com/search/results/content/?keywords='+e+'&sortBy=%22date_posted%22':'https://www.linkedin.com/jobs/search/?keywords='+e+'&geoId=102713980&f_TPR=r86400&sortBy=DD'}function openGroup(jobs,p=false){jobs.forEach(j=>{let w=window.open(makeUrl(j,p),'_blank');if(w)tabs.push(w)})}function openAll(){Object.entries(groups).forEach(([n,j])=>openGroup(j,n==='Hiring / Recruitment Posts'));openUrls(["https://in.linkedin.com/jobs/search/?keywords=Walk-in&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Gandhinagar&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Vadodara&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Surat&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Vapi&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Andheri&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Pune&f_TPR=r86400", "https://in.linkedin.com/jobs/search/?keywords=Walk-in&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://in.linkedin.com/jobs/search/?keywords=Walk-in&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Vadodara&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Surat&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Pune&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Pune&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Walk-in%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Walk-in%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Walk-in%20Pune&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Vadodara&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Pune&f_TPR=r86400", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analytics&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analytics&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Surat&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Surat&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Surat&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Surat&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Gandhinagar&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Gandhinagar&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Gandhinagar&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Gandhinagar&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Vapi&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Vapi&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Vapi&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Vapi&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Pune&f_TPR=r86400&sortBy=DD"])}function closeTabs(){tabs.forEach(w=>{try{if(w&&!w.closed)w.close()}catch(e){}});tabs=[]}function openUrls(urls){
-urls.forEach(url=>{
-    const tab=window.open(url,"_blank");
-    if(tab)tabs.push(tab);
-});
+
+<button id="mobileBackToTop" type="button" aria-label="Go to top" title="Go to top">
+  <span class="top-arrow">↑</span>
+</button>
+<footer>168 LinkedIn searches • Data Analyst • Business Analyst • Power BI • MIS • Hiring Posts • Location & Walk-in Searches<div class="dev-credit">✨ Developed by <span>Ravi Shrivastav</span> • Keep applying, keep growing 🚀</div></footer></div><script>const groups={"Data Analyst": ["Data Analyst", "Junior Data Analyst", "Data Analyst Intern", "Data Analytics Intern", "Associate Data Analyst", "Entry Level Data Analyst", "Business Data Analyst", "BI Analyst", "Reporting Analyst", "MIS Analyst", "Data Quality Analyst", "SQL Data Analyst", "Power BI Data Analyst", "Data Reporting Analyst", "Data Associate", "Analytics Associate", "Data Specialist", "Data Operations Analyst"], "Business Analyst": ["Business Analyst", "Junior Business Analyst", "Jr Business Analyst", "Associate Business Analyst", "Business Analyst Intern", "Business Analytics Intern", "Trainee Business Analyst", "Entry Level Business Analyst", "Business Systems Analyst", "Functional Business Analyst", "IT Business Analyst", "Business and Data Analyst", "Business Intelligence Analyst", "Business Process Analyst", "Business Operations Analyst", "Product Business Analyst"], "Power BI / BI": ["Power BI Developer", "Junior Power BI Developer", "Jr Power BI Developer", "Associate Power BI Developer", "Power BI Developer Intern", "PowerBI Developer Intern", "Power BI Analyst", "Power BI Data Analyst", "Power BI Developer / Analyst", "BI Developer", "Junior BI Developer", "BI Analyst", "Junior BI Analyst", "Business Intelligence Developer", "Business Intelligence Analyst", "Power BI Consultant", "Power BI Reporting Analyst", "Reporting Analyst Power BI", "Data Analyst Power BI", "Power BI Data Analytics", "BI Data Analyst", "Power BI Reporting Developer", "Microsoft Power BI Developer", "Power BI / SQL Developer"], "MIS Executive / Reporting": ["MIS Executive", "Junior MIS Executive", "MIS Executive Fresher", "MIS Executive Intern", "MIS Trainee", "MIS Coordinator", "MIS Analyst", "Junior MIS Analyst", "MIS Reporting Analyst", "Reporting Analyst", "Reporting Executive", "MIS Reporting Executive", "MIS Data Analyst", "Data MIS Executive", "MIS Data Executive", "Excel MIS Executive", "Excel Executive", "Data Reporting Executive", "Operations MIS Executive", "MIS Operations Executive", "Operations Reporting Executive", "Data Operations Executive", "Back Office MIS Executive"], "Hiring / Recruitment Posts": ["We're Hiring", "We're Hiring Data Analyst", "Hiring Data Analyst", "Hiring Now Data Analyst", "Immediate Joiner Data Analyst", "Data Analyst Hiring", "Junior Data Analyst Hiring", "Data Analyst Fresher Hiring", "Data Analyst Internship Hiring", "Data Analytics Hiring", "Hiring Business Analyst", "Junior Business Analyst Hiring", "Business Analyst Fresher Hiring", "Business Analyst Internship Hiring", "Hiring Power BI Developer", "Power BI Developer Hiring", "Power BI Fresher Hiring", "BI Developer Hiring", "Hiring MIS Executive", "MIS Executive Hiring", "MIS Fresher Hiring", "MIS Executive Vacancy", "Urgent Hiring", "Immediate Hiring", "Walk-in Interview", "Walk-in Drive", "Open Positions", "Job Vacancy", "Freshers Hiring", "Immediate Joiners"]};let tabs=[]; let tabNames=[]; let tabSeq=0;function makeUrl(j,p){let e=encodeURIComponent(j).replace(/%20/g,'+');return p?'https://www.linkedin.com/search/results/content/?keywords='+e+'&sortBy=%22date_posted%22':'https://www.linkedin.com/jobs/search/?keywords='+e+'&geoId=102713980&f_TPR=r86400&sortBy=DD'}function openGroup(jobs,p=false){jobs.forEach(j=>{const name="jobdash_tab_"+(++tabSeq); const w=window.open(makeUrl(j,p),name); if(w){tabs.push(w); tabNames.push(name)}})}function openAll(){Object.entries(groups).forEach(([n,j])=>openGroup(j,n==='Hiring / Recruitment Posts'));openUrls(["https://in.linkedin.com/jobs/search/?keywords=Walk-in&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Gandhinagar&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Vadodara&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Surat&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Vapi&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Andheri&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Pune&f_TPR=r86400", "https://in.linkedin.com/jobs/search/?keywords=Walk-in&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://in.linkedin.com/jobs/search/?keywords=Walk-in&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Vadodara&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Surat&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Pune&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Pune&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Walk-in%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Walk-in%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Walk-in%20Pune&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Ahmedabad&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Vadodara&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Mumbai&f_TPR=r86400", "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Pune&f_TPR=r86400", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analytics&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Ahmedabad&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analytics&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Vadodara&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Surat&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Surat&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Surat&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Surat&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Gandhinagar&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Gandhinagar&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Gandhinagar&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Gandhinagar&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Vapi&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Vapi&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Vapi&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Vapi&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Pune&f_TPR=r86400&sortBy=DD", "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Pune&f_TPR=r86400&sortBy=DD"])}function closeTabs(){
+    // Close every tab opened by this dashboard session.
+    tabs.forEach(w=>{try{if(w&&!w.closed)w.close()}catch(e){}});
+    // Also close by stable window names in case a cross-origin navigation
+    // makes the stored Window reference unreliable in the browser.
+    tabNames.forEach(name=>{try{const w=window.open("",name); if(w&&!w.closed)w.close()}catch(e){}});
+    tabs=[];
+    tabNames=[];
+}
+function openUrls(urls){
+    urls.forEach(url=>{
+        const name="jobdash_tab_"+(++tabSeq);
+        const tab=window.open(url,name);
+        if(tab){tabs.push(tab); tabNames.push(name);}
+    });
 }
 </script><script>
-/* =========================================================
-   PREMIUM UX ENHANCEMENTS
-   ========================================================= */
-document.addEventListener("DOMContentLoaded", function(){
-    const toolbar = document.createElement("div");
-    toolbar.className = "mobile-toolbar";
-    toolbar.innerHTML = `
-        <div>
-            <strong>📱 Job Dashboard</strong>
-            <small>Last 24 Hours • Tap any search to open LinkedIn</small>
-        </div>
-        <button onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆ TOP</button>
-    `;
-    const firstInfo = document.querySelector(".info");
-    if(firstInfo && !document.querySelector(".mobile-toolbar")) firstInfo.parentNode.insertBefore(toolbar, firstInfo);
-
-    document.querySelectorAll(".grid a,.links a").forEach(function(link){
-        if(!link.querySelector(".link-arrow")){
-            const arrow=document.createElement("span");
-            arrow.className="link-arrow";arrow.textContent=" ↗";arrow.style.marginLeft="auto";arrow.style.fontWeight="900";arrow.style.opacity=".65";
-            link.appendChild(arrow);
-        }
-    });
-
-    document.querySelectorAll(".category").forEach(function(category){
-        const button=category.querySelector(".cat-btn");
-        const links=category.querySelector(".links");
-        if(!links) return;
-        const heading=category.querySelector(".category-head h2");
-        if(heading && !heading.querySelector(".category-toggle")){
-            const toggle=document.createElement("button");
-            toggle.className="category-toggle";toggle.textContent="▾";toggle.setAttribute("aria-label","Toggle category");
-            toggle.style.background="#eef5fc";toggle.style.color="#07579f";toggle.style.padding="7px 11px";toggle.style.marginLeft="5px";
-            heading.style.cursor="pointer";heading.appendChild(toggle);
-            heading.addEventListener("click",function(){
-                const hidden=links.style.display==="none";
-                links.style.display=hidden?"":"none";toggle.textContent=hidden?"▾":"▸";
-            });
-        }
-    });
-});
-</script>
-<script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 }
-</script></body></html>
+</script>
+<script>
+/* ===== PREMIUM JOB GAME: click searches, build your streak ===== */
+document.addEventListener('DOMContentLoaded',function(){
+  const host=document.querySelector('.wrap'); if(!host)return;
+  const hud=document.createElement('div'); hud.className='game-hud';
+  hud.innerHTML='<div class="game-card"><strong>🎮 JOB HUNT XP</strong><b id="xpCount">0 XP</b><div class="progress"><i id="xpBar"></i></div><small id="xpMsg">Open searches to earn XP</small></div><div class="game-card"><strong>🔥 STREAK</strong><b id="streakCount">0</b><small> searches today</small></div><div class="game-card"><strong>🏆 LEVEL</strong><b id="levelCount">1</b><small id="levelMsg">Rookie Hunter</small></div>';
+  const info=document.querySelector('.info'); if(info) info.after(hud); else host.insertBefore(hud,host.firstChild);
+
+  let clicked=Number(localStorage.getItem('jobdash_clicks')||0);
+  const today=new Date().toDateString();
+  if(localStorage.getItem('jobdash_day')!==today){localStorage.setItem('jobdash_day',today);localStorage.setItem('jobdash_dayclicks','0')}
+  let dayClicks=Number(localStorage.getItem('jobdash_dayclicks')||0);
+  const xp=document.getElementById('xpCount'), bar=document.getElementById('xpBar'), streak=document.getElementById('streakCount'), level=document.getElementById('levelCount'), msg=document.getElementById('levelMsg'), xpmsg=document.getElementById('xpMsg');
+  function update(){
+    const lv=Math.floor(clicked/10)+1; const names=['Rookie Hunter','Search Scout','Job Explorer','Career Tracker','Hiring Hunter','Opportunity Pro'];
+    xp.textContent=clicked*10+' XP'; streak.textContent=dayClicks; level.textContent=lv; msg.textContent=names[Math.min(lv-1,names.length-1)];
+    bar.style.width=((clicked%10)/10*100||0)+'%'; xpmsg.textContent=(10-(clicked%10))+' clicks to next level';
+  }
+  function celebrate(){for(let i=0;i<14;i++){const e=document.createElement('span');e.className='confetti';e.textContent=['✨','🎉','⭐','💼','🚀'][Math.floor(Math.random()*5)];e.style.left=(45+Math.random()*10)+'vw';e.style.top=(35+Math.random()*10)+'vh';e.style.setProperty('--x',(Math.random()*360-180)+'px');e.style.setProperty('--y',(Math.random()*-320-80)+'px');document.body.appendChild(e);setTimeout(()=>e.remove(),950)}}
+  document.querySelectorAll('.grid a,.links a').forEach(a=>a.addEventListener('click',function(){clicked++;dayClicks++;localStorage.setItem('jobdash_clicks',clicked);localStorage.setItem('jobdash_dayclicks',dayClicks);update(); if(clicked%10===0) celebrate()}));
+  update();
+});
+
+
+/* Mobile floating back-to-top button */
+(function(){
+  const topButton = document.getElementById("mobileBackToTop");
+  if(!topButton) return;
+
+  function updateTopButton(){
+    topButton.classList.toggle("show", window.scrollY > 280);
+  }
+
+  window.addEventListener("scroll", updateTopButton, {passive:true});
+  updateTopButton();
+
+  topButton.addEventListener("click", function(){
+    window.scrollTo({top:0, behavior:"smooth"});
+  });
+})();
+</script>
+</body></html>
