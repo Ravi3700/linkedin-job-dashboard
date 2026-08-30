@@ -1,52 +1,55 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LinkedIn Job Search Dashboard</title><style>*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f3f6fa;color:#172033}.wrap{max-width:1250px;margin:auto;padding:28px}header{background:linear-gradient(135deg,#0a66c2,#004182);color:white;padding:28px;border-radius:18px;margin-bottom:20px}h1{margin:0 0 8px}.sub{margin:0;opacity:.9}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}button{border:0;border-radius:10px;padding:12px 16px;font-weight:700;cursor:pointer}.main{background:#ffd54a;color:#172033}.close{background:#ffffff22;color:#fff;border:1px solid #ffffff55}.info,section{background:#fff;border-radius:16px;padding:20px;margin-bottom:20px;box-shadow:0 4px 16px #0000000d}.info{border-left:4px solid #0a66c2}.head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:15px}h2{margin:0}small{color:#667085}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}a{text-decoration:none;color:#07579f;background:#eef5fc;border:1px solid #d6e7f8;padding:10px;border-radius:9px;font-weight:600}a:hover{background:#e2f0ff}footer{text-align:center;color:#667085;font-size:13px}@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.grid{grid-template-columns:1fr}.wrap{padding:14px}}
-.category{background:#fff;border-radius:16px;padding:20px;margin-bottom:20px;box-shadow:0 4px 16px #0000000d}
-.category-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:15px}
-.category-head h2{margin:0}
-.category-head h2 span{color:#667085;font-size:14px;font-weight:500}
-.links{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
-.links a{text-decoration:none;color:#07579f;background:#eef5fc;border:1px solid #d6e7f8;padding:10px;border-radius:9px;font-weight:600}
-.links a:hover{background:#e2f0ff}
-.cat-btn{background:#ffd54a;color:#172033;border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
-@media(max-width:900px){.links{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.links{grid-template-columns:1fr}}
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LinkedIn Job Search Dashboard</title><style>
+/* =========================================================
+   PREMIUM JOB DASHBOARD UI/UX
+   Works with the existing dashboard — no search data changes
+   ========================================================= */
 
-/* Mobile / Phone enhancements */
-@media (max-width: 600px) {
-  body { font-size: 14px; }
-  .wrap { padding: 10px; width: 100%; }
-  header { padding: 18px 14px; border-radius: 14px; }
-  h1 { font-size: 22px; line-height: 1.25; }
-  .sub { font-size: 13px; line-height: 1.45; }
-  .actions { display: grid; grid-template-columns: 1fr; gap: 8px; }
-  .actions button { width: 100%; min-height: 46px; font-size: 14px; }
-  .info, section, .category { padding: 14px; border-radius: 13px; }
-  .head, .category-head { align-items: stretch; }
-  .head h2, .category-head h2 { font-size: 18px; }
-  .head button, .category-head button, .cat-btn { width: 100%; min-height: 44px; }
-  .grid, .links { grid-template-columns: 1fr !important; gap: 8px; }
-  .grid a, .links a {
-    display: block;
-    width: 100%;
-    min-height: 46px;
-    padding: 12px;
-    font-size: 14px;
-  }
-  footer { padding: 10px 4px 20px; line-height: 1.5; }
+:root{
+  --bg:#f4f7fb;--card:#ffffff;--text:#172033;--muted:#667085;
+  --primary:#0a66c2;--primary-dark:#004182;--soft:#eef6ff;
+  --border:#dce7f3;--success:#12b76a;--warning:#f79009;--danger:#f04438;
+  --shadow:0 10px 30px rgba(16,24,40,.08);--shadow-hover:0 16px 38px rgba(16,24,40,.14);
 }
-
-/* Touch-friendly controls */
-button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
-a { cursor: pointer; }
-
-.mobile-toolbar {
-  display:flex; justify-content:space-between; align-items:center; gap:10px;
-  background:#eaf4ff; border:1px solid #cfe5fa; border-radius:13px;
-  padding:10px 12px; margin:0 0 12px;
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:radial-gradient(circle at top right,rgba(10,102,194,.07),transparent 28%),var(--bg);color:var(--text);line-height:1.5}
+.wrap{max-width:1400px;margin:auto;padding:24px}
+header{position:relative;overflow:hidden;background:linear-gradient(135deg,#0a66c2 0%,#004182 55%,#002d5c 100%);color:#fff;padding:34px;border-radius:24px;margin-bottom:20px;box-shadow:0 18px 45px rgba(0,65,130,.22)}
+header:before{content:"";position:absolute;width:300px;height:300px;right:-120px;top:-160px;background:rgba(255,255,255,.08);border-radius:50%}
+header:after{content:"";position:absolute;width:180px;height:180px;left:-100px;bottom:-110px;background:rgba(255,255,255,.06);border-radius:50%}
+header h1{position:relative;z-index:1;margin:0 0 8px;font-size:clamp(25px,4vw,38px);letter-spacing:-.7px}
+header .sub{position:relative;z-index:1;margin:0;opacity:.9;max-width:850px}
+.actions{position:relative;z-index:2;display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+button{border:0;border-radius:12px;padding:12px 17px;font-weight:800;cursor:pointer;transition:.2s ease;font-size:14px}
+button:hover{transform:translateY(-2px)}button:active{transform:translateY(0)}
+.main{background:#ffd54a;color:#172033;box-shadow:0 7px 18px rgba(0,0,0,.12)}
+.close{background:rgba(255,255,255,.13);color:#fff;border:1px solid rgba(255,255,255,.28)}
+.info{background:linear-gradient(135deg,#fff,#f8fbff);border:1px solid var(--border);border-left:5px solid var(--primary);border-radius:18px;padding:20px;margin-bottom:20px;box-shadow:var(--shadow)}
+section,.category{background:rgba(255,255,255,.96);border:1px solid var(--border);border-radius:20px;padding:22px;margin-bottom:20px;box-shadow:var(--shadow);transition:.25s ease}
+section:hover,.category:hover{box-shadow:var(--shadow-hover)}
+.head,.category-head{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px}
+.head h2,.category-head h2{margin:0;font-size:21px;letter-spacing:-.25px}
+.category-head h2 span{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:24px;padding:0 8px;margin-left:5px;border-radius:20px;background:#eef5fc;color:#07579f;font-size:12px}
+.cat-btn{background:#0a66c2;color:#fff;box-shadow:0 5px 14px rgba(10,102,194,.2)}
+.cat-btn:hover{background:#004f9c}
+.grid,.links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}
+.grid a,.links a{position:relative;display:flex;align-items:center;min-height:48px;padding:12px 14px;border-radius:12px;text-decoration:none;color:#07579f;background:linear-gradient(135deg,#f3f8fd,#eaf4fc);border:1px solid #d5e6f6;font-weight:700;transition:.2s ease;overflow:hidden}
+.grid a:before,.links a:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:#0a66c2;transform:scaleY(0);transition:.2s ease}
+.grid a:hover,.links a:hover{transform:translateY(-2px);background:#fff;border-color:#9fc9eb;box-shadow:0 7px 18px rgba(10,102,194,.1)}
+.grid a:hover:before,.links a:hover:before{transform:scaleY(1)}
+.mobile-toolbar{display:none}
+footer{text-align:center;color:#667085;font-size:13px;padding:20px 10px 30px}
+::-webkit-scrollbar{width:9px}::-webkit-scrollbar-track{background:#eef2f6}::-webkit-scrollbar-thumb{background:#b9c9d9;border-radius:20px}::-webkit-scrollbar-thumb:hover{background:#8ea7bd}
+@media(max-width:1000px){.grid,.links{grid-template-columns:repeat(2,minmax(0,1fr))}.wrap{padding:18px}}
+@media(max-width:650px){
+ body{font-size:14px}.wrap{padding:10px}header{padding:22px 18px;border-radius:18px;margin-bottom:12px}header h1{font-size:24px}header .sub{font-size:13px}
+ .actions{display:grid;grid-template-columns:1fr;gap:8px}.actions button{width:100%;min-height:47px}
+ .info,section,.category{padding:15px;border-radius:16px;margin-bottom:13px}.head,.category-head{align-items:stretch}.head h2,.category-head h2{font-size:18px}.category-head button,.cat-btn{width:100%;min-height:45px}
+ .grid,.links{grid-template-columns:1fr;gap:8px}.grid a,.links a{min-height:50px;padding:13px;font-size:14px}
+ .mobile-toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#fff;border:1px solid var(--border);border-radius:14px;padding:10px 12px;margin-bottom:12px;box-shadow:0 5px 15px rgba(16,24,40,.06)}
+ .mobile-toolbar strong{color:#07579f}.mobile-toolbar small{display:block;color:#667085;font-size:11px}.mobile-toolbar button{background:#eef5fc;color:#07579f;padding:9px 12px}
 }
-.mobile-toolbar div { display:flex; flex-direction:column; gap:2px; }
-.mobile-toolbar small { color:#667085; }
-.mobile-toolbar button { background:#fff; color:#07579f; padding:9px 12px; }
-@media (min-width:601px) { .mobile-toolbar { display:none; } }
+@media(max-width:380px){header h1{font-size:21px}.head h2,.category-head h2{font-size:17px}.grid a,.links a{font-size:13px}}
 </style>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0a66c2">
@@ -78,6 +81,49 @@ urls.forEach(url=>{
 });
 }
 </script><script>
+/* =========================================================
+   PREMIUM UX ENHANCEMENTS
+   ========================================================= */
+document.addEventListener("DOMContentLoaded", function(){
+    const toolbar = document.createElement("div");
+    toolbar.className = "mobile-toolbar";
+    toolbar.innerHTML = `
+        <div>
+            <strong>📱 Job Dashboard</strong>
+            <small>Last 24 Hours • Tap any search to open LinkedIn</small>
+        </div>
+        <button onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆ TOP</button>
+    `;
+    const firstInfo = document.querySelector(".info");
+    if(firstInfo && !document.querySelector(".mobile-toolbar")) firstInfo.parentNode.insertBefore(toolbar, firstInfo);
+
+    document.querySelectorAll(".grid a,.links a").forEach(function(link){
+        if(!link.querySelector(".link-arrow")){
+            const arrow=document.createElement("span");
+            arrow.className="link-arrow";arrow.textContent=" ↗";arrow.style.marginLeft="auto";arrow.style.fontWeight="900";arrow.style.opacity=".65";
+            link.appendChild(arrow);
+        }
+    });
+
+    document.querySelectorAll(".category").forEach(function(category){
+        const button=category.querySelector(".cat-btn");
+        const links=category.querySelector(".links");
+        if(!links) return;
+        const heading=category.querySelector(".category-head h2");
+        if(heading && !heading.querySelector(".category-toggle")){
+            const toggle=document.createElement("button");
+            toggle.className="category-toggle";toggle.textContent="▾";toggle.setAttribute("aria-label","Toggle category");
+            toggle.style.background="#eef5fc";toggle.style.color="#07579f";toggle.style.padding="7px 11px";toggle.style.marginLeft="5px";
+            heading.style.cursor="pointer";heading.appendChild(toggle);
+            heading.addEventListener("click",function(){
+                const hidden=links.style.display==="none";
+                links.style.display=hidden?"":"none";toggle.textContent=hidden?"▾":"▸";
+            });
+        }
+    });
+});
+</script>
+<script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 }
