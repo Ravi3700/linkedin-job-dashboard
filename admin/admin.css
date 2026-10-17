@@ -1,0 +1,110 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #172b3a;
+  background: #eef4f8;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 0; }
+
+button, input, select { font: inherit; }
+
+.admin-shell { width: min(1200px, 100%); margin: 0 auto; padding: 24px; }
+
+.admin-header, .panel, .section-card, .shortcut-row {
+  background: #fff;
+  border: 1px solid #d9e3ec;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(16, 42, 67, .07);
+}
+
+.admin-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 28px;
+  color: #fff;
+  background: linear-gradient(120deg, #071b2d, #155e75);
+}
+
+.admin-header h1 { margin: 4px 0 8px; font-size: clamp(26px, 4vw, 38px); }
+.admin-header p { max-width: 700px; margin: 0; line-height: 1.55; color: #d7e9ef; }
+.admin-header .eyebrow { color: #5eead4; font-size: 11px; font-weight: 800; letter-spacing: .12em; }
+.site-return { display: inline-block; margin-top: 14px; color: #fff; font-size: 13px; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.site-return:focus-visible { outline: 3px solid #5eead4; outline-offset: 3px; }
+
+.panel { margin-top: 18px; padding: 22px; }
+.panel h2 { margin: 0 0 8px; color: #102a43; }
+.panel p { line-height: 1.5; }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.toolbar p { margin: 4px 0 0; }
+.muted { color: #617386; font-size: 13px; }
+
+.button {
+  min-height: 42px;
+  padding: 10px 14px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  font-weight: 750;
+  cursor: pointer;
+}
+.button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid rgba(20, 184, 166, .45);
+  outline-offset: 2px;
+}
+.button:disabled { opacity: .5; cursor: not-allowed; }
+.button.primary { color: #fff; background: #0f766e; }
+.button.primary:hover:not(:disabled) { background: #0b625c; }
+.button.secondary { color: #102a43; background: #edf4f7; border-color: #d9e3ec; }
+.button.danger { color: #a12b2b; background: #fff2f0; border-color: #f2c6c1; }
+.button.small { min-height: 36px; padding: 7px 10px; font-size: 13px; }
+
+.sections-editor { display: grid; gap: 14px; margin-top: 18px; }
+.section-card { padding: 16px; }
+.section-heading, .shortcut-actions, .approval-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.section-heading { justify-content: space-between; margin-bottom: 14px; }
+.section-heading h3 { margin: 0; color: #155e75; }
+.section-fields, .shortcut-row { display: grid; grid-template-columns: minmax(180px, 1fr) minmax(150px, .6fr); gap: 12px; }
+.field { display: flex; flex-direction: column; gap: 5px; min-width: 0; font-size: 13px; font-weight: 700; }
+.field input, .field select {
+  width: 100%;
+  min-width: 0;
+  min-height: 42px;
+  padding: 9px 10px;
+  border: 1px solid #c8d8e2;
+  border-radius: 8px;
+  background: #fff;
+  color: #172b3a;
+}
+.shortcut-list { display: grid; gap: 10px; margin: 14px 0; }
+.shortcut-row { grid-template-columns: minmax(170px, .8fr) minmax(240px, 1.5fr) minmax(130px, .55fr) auto; align-items: end; padding: 12px; background: #f8fbfc; box-shadow: none; }
+.shortcut-actions { justify-content: flex-end; }
+.approval-actions { justify-content: flex-end; margin-top: 20px; padding-top: 18px; border-top: 1px solid #e1e9ee; }
+.status-message { min-height: 22px; margin-bottom: 0; color: #155e75; font-weight: 700; }
+.status-message[data-kind="error"] { color: #a12b2b; }
+.status-message[data-kind="success"] { color: #087443; }
+.notice { padding: 12px; border-left: 4px solid #d49b16; background: #fff8e7; }
+.notice a { color: #07579f; }
+.preview-panel { margin-top: 22px; padding-top: 18px; border-top: 1px solid #d9e3ec; }
+.preview-section { padding: 14px 0; border-bottom: 1px solid #e7edf1; }
+.preview-section h3 { margin: 0 0 8px; }
+.preview-section ul { margin: 0; padding-left: 22px; }
+.preview-section li { overflow-wrap: anywhere; }
+.preview-hidden { color: #8b5e00; }
+
+[hidden] { display: none !important; }
+
+@media (max-width: 720px) {
+  .admin-shell { padding: 12px; }
+  .admin-header { padding: 20px 16px; }
+  .panel { padding: 16px; }
+  .toolbar { align-items: stretch; flex-direction: column; }
+  .toolbar .button, .approval-actions .button { width: 100%; }
+  .section-fields, .shortcut-row { grid-template-columns: minmax(0, 1fr); }
+  .shortcut-actions { justify-content: stretch; }
+  .shortcut-actions .button { flex: 1; }
+  .approval-actions { align-items: stretch; flex-direction: column; }
+}

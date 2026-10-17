@@ -1,0 +1,17 @@
+name = "linkedin-job-dashboard-admin"
+main = "src/index.js"
+compatibility_date = "2026-10-17"
+workers_dev = true
+
+[vars]
+ADMIN_GITHUB_LOGIN = "Ravi3700"
+ADMIN_ORIGIN = "https://ravi3700.github.io"
+ADMIN_URL = "https://ravi3700.github.io/linkedin-job-dashboard/admin/"
+REPO_OWNER = "Ravi3700"
+REPO_NAME = "linkedin-job-dashboard"
+BASE_BRANCH = "main"
+CONTENT_PATH = "data/site-content.json"
+GITHUB_APP_ID = "SET_AFTER_CREATING_THE_GITHUB_APP"
+GITHUB_APP_INSTALLATION_ID = "SET_AFTER_INSTALLING_THE_GITHUB_APP"
+GITHUB_APP_CLIENT_ID = "SET_AFTER_CREATING_THE_GITHUB_APP"
+AUTH_CALLBACK_URL = "https://SET-WORKER-NAME.workers.dev/auth/callback"

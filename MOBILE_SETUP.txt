@@ -1,12 +1,15 @@
 # LinkedIn Job Search Dashboard — Mobile Version
 
-## Easiest phone setup: GitHub Pages
-1. Create a GitHub repository.
-2. Upload `index.html`, `manifest.json`, and `sw.js` to the repository root.
-3. In GitHub: Settings → Pages → Deploy from branch → select `main` and `/root`.
-4. Open the generated Pages URL on your phone.
-5. In Chrome mobile, use **Add to Home screen** so the dashboard behaves like an app.
+## Phone setup: GitHub Pages
+The public site is published from this repository. If you deploy a copy, upload
+the complete repository root and preserve its folders, including `data/`,
+`js/`, and `admin/`; the public page loads job searches from the managed JSON
+file in `data/site-content.json`.
 
-The dashboard keeps the existing LinkedIn searches and last-24-hours filters. On mobile, the layout becomes single-column and buttons/links are touch-friendly.
+Open the GitHub Pages URL on your phone. In Chrome mobile, use **Add to Home
+screen** so the dashboard behaves like an app.
+
+The dashboard keeps the existing LinkedIn searches and last-24-hours filters.
+On mobile, the layout becomes single-column and buttons/links are touch-friendly.
 
 Note: LinkedIn controls how many tabs/windows can be opened from a mobile browser, so individual search links are the most reliable option on phones.

@@ -1,0 +1,2942 @@
+{
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "id": "section-01",
+      "title": "Data Analyst",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-01-search-001",
+          "title": "Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-002",
+          "title": "Data Analyst Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Analyst+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-003",
+          "title": "Entry Level Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Entry+Level+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-004",
+          "title": "Business Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-005",
+          "title": "BI Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-006",
+          "title": "Reporting Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-007",
+          "title": "MIS Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-008",
+          "title": "Data Quality Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Quality+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-009",
+          "title": "SQL Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=SQL+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-010",
+          "title": "Power BI Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-011",
+          "title": "Data Operations Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Operations+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-012",
+          "title": "Data Analyst Startup",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Analyst+Startup&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-013",
+          "title": "Python Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Python+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-014",
+          "title": "Tableau Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Tableau+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-015",
+          "title": "Product Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Product+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-016",
+          "title": "Marketing Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Marketing+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-017",
+          "title": "Financial Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Financial+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-018",
+          "title": "Risk Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Risk+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-019",
+          "title": "Sales Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Sales+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-020",
+          "title": "Supply Chain Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Supply+Chain+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-021",
+          "title": "Healthcare Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Healthcare+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-022",
+          "title": "Customer Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Customer+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-023",
+          "title": "Data Visualization Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Visualization+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-024",
+          "title": "Data Governance Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Governance+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-025",
+          "title": "Pricing Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Pricing+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-026",
+          "title": "Fraud Data Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Fraud+Data+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-027",
+          "title": "People Analytics Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=People+Analytics+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-028",
+          "title": "Data Analyst – United States",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=United%20States&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-029",
+          "title": "Data Analyst – United Kingdom",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=United%20Kingdom&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-030",
+          "title": "Data Analyst – Canada",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Canada&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-01-search-031",
+          "title": "Data Analyst – Remote",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Remote&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-02",
+      "title": "Business Analyst",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-02-search-001",
+          "title": "Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-002",
+          "title": "Business Analyst Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Analyst+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-003",
+          "title": "Entry Level Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Entry+Level+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-004",
+          "title": "Business Systems Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Systems+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-005",
+          "title": "Functional Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Functional+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-006",
+          "title": "IT Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=IT+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-007",
+          "title": "Business Intelligence Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Intelligence+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-008",
+          "title": "Business Process Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Process+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-009",
+          "title": "Business Operations Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Operations+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-010",
+          "title": "Product Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Product+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-011",
+          "title": "Business Analyst Startup",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Analyst+Startup&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-012",
+          "title": "Senior Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Senior+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-013",
+          "title": "Technical Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Technical+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-014",
+          "title": "Agile Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Agile+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-015",
+          "title": "Requirements Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Requirements+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-016",
+          "title": "CRM Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=CRM+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-017",
+          "title": "ERP Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=ERP+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-018",
+          "title": "Finance Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Finance+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-019",
+          "title": "Healthcare Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Healthcare+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-020",
+          "title": "Banking Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Banking+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-021",
+          "title": "Risk Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Risk+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-022",
+          "title": "Supply Chain Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Supply+Chain+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-023",
+          "title": "Business Analyst – United States",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=United%20States&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-024",
+          "title": "Business Analyst – United Kingdom",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=United%20Kingdom&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-025",
+          "title": "Business Analyst – Canada",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Canada&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-02-search-026",
+          "title": "Business Analyst – Remote",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Remote&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-03",
+      "title": "Power BI / BI",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-03-search-001",
+          "title": "Power BI Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-002",
+          "title": "Power BI Developer Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Developer+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-003",
+          "title": "Power BI Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-004",
+          "title": "BI Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-005",
+          "title": "BI Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-006",
+          "title": "Power BI Consultant",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Consultant&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-007",
+          "title": "Power BI / SQL Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+%2F+SQL+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-008",
+          "title": "Power BI Developer Startup",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Developer+Startup&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-009",
+          "title": "Entry Level Power BI Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Entry+Level+Power+BI+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-010",
+          "title": "Power BI Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-011",
+          "title": "Power BI Dashboard Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Dashboard+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-012",
+          "title": "Power BI DAX Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+DAX+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-013",
+          "title": "Power BI Azure Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Azure+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-014",
+          "title": "Microsoft Fabric Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Microsoft+Fabric+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-015",
+          "title": "BI Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-016",
+          "title": "BI Manager",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI+Manager&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-017",
+          "title": "Tableau Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Tableau+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-018",
+          "title": "Looker Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Looker+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-019",
+          "title": "Power BI Developer – United States",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=United%20States&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-020",
+          "title": "Power BI Developer – United Kingdom",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=United%20Kingdom&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-021",
+          "title": "Power BI Developer – Canada",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Canada&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-03-search-022",
+          "title": "Power BI Developer – Remote",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Remote&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-04",
+      "title": "MIS Executive / Reporting",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-04-search-001",
+          "title": "MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-002",
+          "title": "MIS Executive Fresher",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS+Executive+Fresher&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-003",
+          "title": "MIS Executive Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS+Executive+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-004",
+          "title": "MIS Coordinator",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS+Coordinator&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-005",
+          "title": "MIS Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-006",
+          "title": "Reporting Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-007",
+          "title": "Reporting Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-008",
+          "title": "Excel MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Excel+MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-009",
+          "title": "Operations MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Operations+MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-010",
+          "title": "Back Office MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Back+Office+MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-011",
+          "title": "MIS Executive Startup",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS+Executive+Startup&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-012",
+          "title": "MIS Specialist",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS+Specialist&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-013",
+          "title": "MIS Manager",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS+Manager&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-014",
+          "title": "Business Reporting Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Reporting+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-015",
+          "title": "Management Reporting Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Management+Reporting+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-016",
+          "title": "Dashboard Reporting Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Dashboard+Reporting+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-017",
+          "title": "Advanced Excel Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Advanced+Excel+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-018",
+          "title": "Power BI MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power+BI+MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-019",
+          "title": "SQL MIS Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=SQL+MIS+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-020",
+          "title": "Sales MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Sales+MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-021",
+          "title": "Finance MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Finance+MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-022",
+          "title": "HR MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=HR+MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-023",
+          "title": "Supply Chain MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Supply+Chain+MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-024",
+          "title": "Logistics MIS Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Logistics+MIS+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-025",
+          "title": "KPI Reporting Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=KPI+Reporting+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-026",
+          "title": "Reporting Analyst – United States",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=United%20States&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-027",
+          "title": "Reporting Analyst – United Kingdom",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=United%20Kingdom&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-04-search-028",
+          "title": "Reporting Analyst – Remote",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Remote&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-05",
+      "title": "Hiring / Recruitment Posts",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-05-search-001",
+          "title": "We're Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=We%27re+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-002",
+          "title": "We're Hiring Data Analyst",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=We%27re+Hiring+Data+Analyst&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-003",
+          "title": "Hiring Data Analyst",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Hiring+Data+Analyst&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-004",
+          "title": "Hiring Now Data Analyst",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Hiring+Now+Data+Analyst&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-005",
+          "title": "Immediate Joiner Data Analyst",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Immediate+Joiner+Data+Analyst&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-006",
+          "title": "Data Analyst Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-007",
+          "title": "Junior Data Analyst Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Junior+Data+Analyst+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-008",
+          "title": "Data Analyst Fresher Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Fresher+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-009",
+          "title": "Data Analyst Internship Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Internship+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-010",
+          "title": "Data Analytics Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analytics+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-011",
+          "title": "Hiring Business Analyst",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Hiring+Business+Analyst&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-012",
+          "title": "Junior Business Analyst Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Junior+Business+Analyst+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-013",
+          "title": "Business Analyst Fresher Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Fresher+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-014",
+          "title": "Business Analyst Internship Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Internship+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-015",
+          "title": "Hiring Power BI Developer",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Hiring+Power+BI+Developer&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-016",
+          "title": "Power BI Developer Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-017",
+          "title": "Power BI Fresher Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Fresher+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-018",
+          "title": "BI Developer Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=BI+Developer+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-019",
+          "title": "Hiring MIS Executive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Hiring+MIS+Executive&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-020",
+          "title": "MIS Executive Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-021",
+          "title": "MIS Fresher Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Fresher+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-022",
+          "title": "MIS Executive Vacancy",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Vacancy&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-023",
+          "title": "Urgent Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Urgent+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-024",
+          "title": "Immediate Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Immediate+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-025",
+          "title": "Walk-in Interview",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in+Interview&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-026",
+          "title": "Walk-in Drive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in+Drive&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-027",
+          "title": "Open Positions",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Open+Positions&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-028",
+          "title": "Job Vacancy",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Job+Vacancy&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-029",
+          "title": "Freshers Hiring",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Freshers+Hiring&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-030",
+          "title": "Immediate Joiners",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Immediate+Joiners&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-031",
+          "title": "Data Analyst Hiring Delhi",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Delhi&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-032",
+          "title": "Data Analyst Hiring Gurugram",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Gurugram&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-033",
+          "title": "Data Analyst Hiring Noida",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Noida&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-034",
+          "title": "Data Analyst Hiring Jaipur",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Jaipur&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-035",
+          "title": "Data Analyst Hiring Indore",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Indore&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-036",
+          "title": "Data Analyst Hiring Bengaluru",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Bengaluru&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-037",
+          "title": "Data Analyst Hiring Hyderabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Hyderabad&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-038",
+          "title": "Data Analyst Hiring Chandigarh",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Chandigarh&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-039",
+          "title": "Data Analyst Hiring Chennai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Chennai&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-040",
+          "title": "Data Analyst Hiring Kolkata",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data+Analyst+Hiring+Kolkata&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-041",
+          "title": "Business Analyst Hiring Delhi",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Delhi&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-042",
+          "title": "Business Analyst Hiring Gurugram",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Gurugram&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-043",
+          "title": "Business Analyst Hiring Noida",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Noida&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-044",
+          "title": "Business Analyst Hiring Jaipur",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Jaipur&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-045",
+          "title": "Business Analyst Hiring Indore",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Indore&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-046",
+          "title": "Business Analyst Hiring Bengaluru",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Bengaluru&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-047",
+          "title": "Business Analyst Hiring Hyderabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Hyderabad&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-048",
+          "title": "Business Analyst Hiring Chandigarh",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Chandigarh&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-049",
+          "title": "Business Analyst Hiring Chennai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Chennai&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-050",
+          "title": "Business Analyst Hiring Kolkata",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business+Analyst+Hiring+Kolkata&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-051",
+          "title": "Power BI Developer Hiring Delhi",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Delhi&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-052",
+          "title": "Power BI Developer Hiring Gurugram",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Gurugram&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-053",
+          "title": "Power BI Developer Hiring Noida",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Noida&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-054",
+          "title": "Power BI Developer Hiring Jaipur",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Jaipur&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-055",
+          "title": "Power BI Developer Hiring Indore",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Indore&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-056",
+          "title": "Power BI Developer Hiring Bengaluru",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Bengaluru&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-057",
+          "title": "Power BI Developer Hiring Hyderabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Hyderabad&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-058",
+          "title": "Power BI Developer Hiring Chandigarh",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Chandigarh&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-059",
+          "title": "Power BI Developer Hiring Chennai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Chennai&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-060",
+          "title": "Power BI Developer Hiring Kolkata",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power+BI+Developer+Hiring+Kolkata&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-061",
+          "title": "MIS Executive Hiring Delhi",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Delhi&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-062",
+          "title": "MIS Executive Hiring Gurugram",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Gurugram&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-063",
+          "title": "MIS Executive Hiring Noida",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Noida&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-064",
+          "title": "MIS Executive Hiring Jaipur",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Jaipur&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-065",
+          "title": "MIS Executive Hiring Indore",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Indore&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-066",
+          "title": "MIS Executive Hiring Bengaluru",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Bengaluru&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-067",
+          "title": "MIS Executive Hiring Hyderabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Hyderabad&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-068",
+          "title": "MIS Executive Hiring Chandigarh",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Chandigarh&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-069",
+          "title": "MIS Executive Hiring Chennai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Chennai&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-05-search-070",
+          "title": "MIS Executive Hiring Kolkata",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS+Executive+Hiring+Kolkata&geoUrn=%5B%22102713980%22%5D&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-06",
+      "title": "💻 Software Development",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-06-search-001",
+          "title": "Software Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Software+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-06-search-002",
+          "title": "Software Engineer Fresher",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Software+Engineer+Fresher&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-06-search-003",
+          "title": "Software Engineer Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Software+Engineer+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-06-search-004",
+          "title": "Associate Software Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Associate+Software+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-06-search-005",
+          "title": "Graduate Software Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Graduate+Software+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-06-search-006",
+          "title": "Software Engineer — Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-06-search-007",
+          "title": "Software Engineer — Pune",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&location=Pune&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-06-search-008",
+          "title": "Software Engineer — Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-07",
+      "title": "🌐 Full Stack Development",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-07-search-001",
+          "title": "Full Stack Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Full+Stack+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-07-search-002",
+          "title": "MERN Stack Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MERN+Stack+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-07-search-003",
+          "title": "MEAN Stack Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MEAN+Stack+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-07-search-004",
+          "title": "Full Stack Developer Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Full+Stack+Developer+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-07-search-005",
+          "title": "Full Stack Developer — Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Full%20Stack%20Developer&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-08",
+      "title": "🖥️ Frontend Development",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-08-search-001",
+          "title": "Frontend Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Frontend+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-08-search-002",
+          "title": "React Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=React+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-08-search-003",
+          "title": "Angular Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Angular+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-08-search-004",
+          "title": "Frontend Developer Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Frontend+Developer+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-09",
+      "title": "⚙️ Backend Development",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-09-search-001",
+          "title": "Backend Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Backend+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-09-search-002",
+          "title": "Java Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Java+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-09-search-003",
+          "title": "Python Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Python+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-09-search-004",
+          "title": "Node.js Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Node.js+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-09-search-005",
+          "title": "Backend Developer Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Backend+Developer+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-10",
+      "title": "📊 Data & Analytics",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-10-search-001",
+          "title": "Data Scientist",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Scientist&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-10-search-002",
+          "title": "Data Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-10-search-003",
+          "title": "Analytics Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Analytics+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-10-search-004",
+          "title": "BI Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-10-search-005",
+          "title": "Data Science Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data+Science+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-10-search-006",
+          "title": "Data Engineer — Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Engineer&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-11",
+      "title": "🤖 AI & Machine Learning",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-11-search-001",
+          "title": "AI Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-11-search-002",
+          "title": "Machine Learning Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-11-search-003",
+          "title": "Generative AI Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Generative+AI+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-11-search-004",
+          "title": "AI/ML Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=AI%2FML+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-12",
+      "title": "☁️ Cloud & DevOps",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-12-search-001",
+          "title": "Cloud Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Cloud+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-12-search-002",
+          "title": "Cloud Support Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Cloud+Support+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-12-search-003",
+          "title": "DevOps Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=DevOps+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-12-search-004",
+          "title": "DevOps Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=DevOps+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-12-search-005",
+          "title": "Site Reliability Engineer / SRE",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Site+Reliability+Engineer+%2F+SRE&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-12-search-006",
+          "title": "Cloud Engineer — Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20Engineer&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-13",
+      "title": "🔐 Cybersecurity",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-13-search-001",
+          "title": "Cybersecurity Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Cybersecurity+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-13-search-002",
+          "title": "SOC Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=SOC+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-13-search-003",
+          "title": "Security Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Security+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-13-search-004",
+          "title": "Cybersecurity Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Cybersecurity+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-13-search-005",
+          "title": "SOC Analyst — Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=SOC%20Analyst&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-14",
+      "title": "🧪 QA & Testing",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-14-search-001",
+          "title": "QA Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=QA+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-14-search-002",
+          "title": "Automation Test Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Automation+Test+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-14-search-003",
+          "title": "Software Tester",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Software+Tester&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-14-search-004",
+          "title": "Software Testing Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Software+Testing+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-15",
+      "title": "📱 Mobile Development",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-15-search-001",
+          "title": "Android Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Android+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-15-search-002",
+          "title": "Flutter Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Flutter+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-15-search-003",
+          "title": "React Native Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=React+Native+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-15-search-004",
+          "title": "Mobile App Developer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Mobile+App+Developer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-15-search-005",
+          "title": "Android Developer Fresher",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Android+Developer+Fresher&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-16",
+      "title": "💼 Business & Product",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-16-search-001",
+          "title": "Product Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Product+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-16-search-002",
+          "title": "Associate Product Manager",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Associate+Product+Manager&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-16-search-003",
+          "title": "Technical Business Analyst",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Technical+Business+Analyst&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-16-search-004",
+          "title": "IT Project Coordinator",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=IT+Project+Coordinator&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-16-search-005",
+          "title": "Business Analyst Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business+Analyst+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-17",
+      "title": "🎨 UI/UX Design",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-17-search-001",
+          "title": "UI/UX Designer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=UI%2FUX+Designer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-17-search-002",
+          "title": "UX Designer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=UX+Designer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-17-search-003",
+          "title": "Product Designer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Product+Designer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-17-search-004",
+          "title": "UI/UX Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=UI%2FUX+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-18",
+      "title": "🛠️ IT Support & Operations",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-18-search-001",
+          "title": "Technical Support Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Technical+Support+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-18-search-002",
+          "title": "IT Support Engineer",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=IT+Support+Engineer&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-18-search-003",
+          "title": "System Administrator",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=System+Administrator&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-18-search-004",
+          "title": "Application Support",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Application+Support&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-18-search-005",
+          "title": "Technical Support Intern",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Technical+Support+Intern&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-19",
+      "title": "📢 Digital & Marketing",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-19-search-001",
+          "title": "Digital Marketing Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Digital+Marketing+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-19-search-002",
+          "title": "SEO Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=SEO+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-19-search-003",
+          "title": "Content Marketing",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Content+Marketing&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-19-search-004",
+          "title": "Social Media Executive",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Social+Media+Executive&geoId=102713980&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-20",
+      "title": "🚶 Walk-in Opportunities — Gujarat",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-20-search-001",
+          "title": "Ahmedabad – Walk-in Jobs",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Ahmedabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-20-search-002",
+          "title": "Ahmedabad – Walk-in Drive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Ahmedabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-20-search-003",
+          "title": "Gandhinagar – Walk-in Drive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Gandhinagar&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-20-search-004",
+          "title": "Vadodara – Walk-in Drive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Vadodara&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-20-search-005",
+          "title": "Surat – Walk-in Drive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Surat&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-20-search-006",
+          "title": "Vapi – Walk-in Drive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Vapi&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-21",
+      "title": "🚶 Walk-in Opportunities — Mumbai / Pune",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-21-search-001",
+          "title": "Mumbai – Walk-in Drive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Mumbai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-21-search-002",
+          "title": "Andheri – Walk-in Drive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Andheri&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-21-search-003",
+          "title": "Pune – Walk-in Drive",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Pune&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-21-search-004",
+          "title": "Mumbai – Walk-in Jobs",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Mumbai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-21-search-005",
+          "title": "Pune – Walk-in Jobs",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Walk-in%20Drive%20Pune&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-22",
+      "title": "🎯 Role-specific Walk-in Opportunities",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-22-search-001",
+          "title": "Data Analyst Walk-in – Ahmedabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Ahmedabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-002",
+          "title": "Data Analyst Walk-in – Vadodara",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Vadodara&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-003",
+          "title": "Data Analyst Walk-in – Surat",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Surat&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-004",
+          "title": "Data Analyst Walk-in – Mumbai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Mumbai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-005",
+          "title": "Data Analyst Walk-in – Pune",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Pune&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-006",
+          "title": "Business Analyst Walk-in – Ahmedabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Ahmedabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-007",
+          "title": "Business Analyst Walk-in – Mumbai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Mumbai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-008",
+          "title": "Business Analyst Walk-in – Pune",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Pune&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-009",
+          "title": "Power BI Walk-in – Ahmedabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Walk-in%20Ahmedabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-010",
+          "title": "Power BI Walk-in – Mumbai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Walk-in%20Mumbai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-011",
+          "title": "Power BI Walk-in – Pune",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Walk-in%20Pune&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-012",
+          "title": "MIS Executive Walk-in – Ahmedabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Ahmedabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-013",
+          "title": "MIS Executive Walk-in – Vadodara",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Vadodara&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-014",
+          "title": "MIS Executive Walk-in – Mumbai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Mumbai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-015",
+          "title": "MIS Executive Walk-in – Pune",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Pune&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-016",
+          "title": "Data Analyst Walk-in Delhi",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Delhi&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-017",
+          "title": "Data Analyst Walk-in Gurugram",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Gurugram&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-018",
+          "title": "Data Analyst Walk-in Noida",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Noida&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-019",
+          "title": "Data Analyst Walk-in Jaipur",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Jaipur&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-020",
+          "title": "Data Analyst Walk-in Indore",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Indore&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-021",
+          "title": "Data Analyst Walk-in Bengaluru",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Bengaluru&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-022",
+          "title": "Data Analyst Walk-in Hyderabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Hyderabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-023",
+          "title": "Data Analyst Walk-in Chandigarh",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Chandigarh&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-024",
+          "title": "Data Analyst Walk-in Chennai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Chennai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-025",
+          "title": "Data Analyst Walk-in Kolkata",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Data%20Analyst%20Walk-in%20Kolkata&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-026",
+          "title": "Business Analyst Walk-in Delhi",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Delhi&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-027",
+          "title": "Business Analyst Walk-in Gurugram",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Gurugram&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-028",
+          "title": "Business Analyst Walk-in Noida",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Noida&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-029",
+          "title": "Business Analyst Walk-in Jaipur",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Jaipur&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-030",
+          "title": "Business Analyst Walk-in Indore",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Indore&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-031",
+          "title": "Business Analyst Walk-in Bengaluru",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Bengaluru&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-032",
+          "title": "Business Analyst Walk-in Hyderabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Hyderabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-033",
+          "title": "Business Analyst Walk-in Chandigarh",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Chandigarh&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-034",
+          "title": "Business Analyst Walk-in Chennai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Chennai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-035",
+          "title": "Business Analyst Walk-in Kolkata",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Business%20Analyst%20Walk-in%20Kolkata&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-036",
+          "title": "Power BI Developer Walk-in Delhi",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Delhi&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-037",
+          "title": "Power BI Developer Walk-in Gurugram",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Gurugram&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-038",
+          "title": "Power BI Developer Walk-in Noida",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Noida&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-039",
+          "title": "Power BI Developer Walk-in Jaipur",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Jaipur&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-040",
+          "title": "Power BI Developer Walk-in Indore",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Indore&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-041",
+          "title": "Power BI Developer Walk-in Bengaluru",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Bengaluru&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-042",
+          "title": "Power BI Developer Walk-in Hyderabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Hyderabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-043",
+          "title": "Power BI Developer Walk-in Chandigarh",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Chandigarh&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-044",
+          "title": "Power BI Developer Walk-in Chennai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Chennai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-045",
+          "title": "Power BI Developer Walk-in Kolkata",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20Developer%20Walk-in%20Kolkata&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-046",
+          "title": "MIS Executive Walk-in Delhi",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Delhi&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-047",
+          "title": "MIS Executive Walk-in Gurugram",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Gurugram&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-048",
+          "title": "MIS Executive Walk-in Noida",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Noida&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-049",
+          "title": "MIS Executive Walk-in Jaipur",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Jaipur&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-050",
+          "title": "MIS Executive Walk-in Indore",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Indore&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-051",
+          "title": "MIS Executive Walk-in Bengaluru",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Bengaluru&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-052",
+          "title": "MIS Executive Walk-in Hyderabad",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Hyderabad&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-053",
+          "title": "MIS Executive Walk-in Chandigarh",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Chandigarh&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-054",
+          "title": "MIS Executive Walk-in Chennai",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Chennai&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        },
+        {
+          "id": "section-22-search-055",
+          "title": "MIS Executive Walk-in Kolkata",
+          "url": "https://www.linkedin.com/search/results/content/?keywords=MIS%20Executive%20Walk-in%20Kolkata&f_TPR=r86400&sortBy=%22date_posted%22",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-23",
+      "title": "💼 Job Opportunities — Ahmedabad",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-23-search-001",
+          "title": "Data Analyst – Ahmedabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Ahmedabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-23-search-002",
+          "title": "Data Analytics – Ahmedabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analytics&location=Ahmedabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-23-search-003",
+          "title": "Business Analyst – Ahmedabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Ahmedabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-23-search-004",
+          "title": "Power BI – Ahmedabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Ahmedabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-23-search-005",
+          "title": "MIS Executive – Ahmedabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Ahmedabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-24",
+      "title": "💼 Job Opportunities — Vadodara",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-24-search-001",
+          "title": "Data Analyst – Vadodara",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Vadodara&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-24-search-002",
+          "title": "Data Analytics – Vadodara",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analytics&location=Vadodara&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-24-search-003",
+          "title": "Business Analyst – Vadodara",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Vadodara&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-24-search-004",
+          "title": "Power BI – Vadodara",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Vadodara&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-24-search-005",
+          "title": "MIS Executive – Vadodara",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Vadodara&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-25",
+      "title": "💼 Job Opportunities — Surat",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-25-search-001",
+          "title": "Data Analyst – Surat",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Surat&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-25-search-002",
+          "title": "Business Analyst – Surat",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Surat&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-25-search-003",
+          "title": "Power BI – Surat",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Surat&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-25-search-004",
+          "title": "MIS Executive – Surat",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Surat&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-26",
+      "title": "💼 Job Opportunities — Gandhinagar",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-26-search-001",
+          "title": "Data Analyst – Gandhinagar",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Gandhinagar&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-26-search-002",
+          "title": "Business Analyst – Gandhinagar",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Gandhinagar&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-26-search-003",
+          "title": "Power BI – Gandhinagar",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Gandhinagar&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-26-search-004",
+          "title": "MIS Executive – Gandhinagar",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Gandhinagar&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-27",
+      "title": "💼 Job Opportunities — Vapi",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-27-search-001",
+          "title": "Data Analyst – Vapi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Vapi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-27-search-002",
+          "title": "Business Analyst – Vapi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Vapi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-27-search-003",
+          "title": "Power BI – Vapi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Vapi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-27-search-004",
+          "title": "MIS Executive – Vapi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Vapi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-28",
+      "title": "💼 Job Opportunities — Mumbai / Andheri",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-28-search-001",
+          "title": "Data Analyst – Mumbai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-28-search-002",
+          "title": "Business Analyst – Mumbai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Mumbai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-28-search-003",
+          "title": "Power BI – Mumbai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Mumbai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-28-search-004",
+          "title": "MIS Executive – Mumbai / Andheri",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-28-search-005",
+          "title": "Data Analyst – Andheri",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Andheri%2C%20Mumbai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-29",
+      "title": "💼 Job Opportunities — Pune",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-29-search-001",
+          "title": "Data Analyst – Pune",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-29-search-002",
+          "title": "Business Analyst – Pune",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Pune&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-29-search-003",
+          "title": "Power BI – Pune",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI&location=Pune&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-29-search-004",
+          "title": "MIS Executive – Pune",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Pune&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-30",
+      "title": "💼 Job Opportunities — Delhi",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-30-search-001",
+          "title": "Data Analyst – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-30-search-002",
+          "title": "Junior Data Analyst – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-30-search-003",
+          "title": "Business Analyst – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-30-search-004",
+          "title": "Junior Business Analyst – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-30-search-005",
+          "title": "Power BI Developer – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-30-search-006",
+          "title": "Power BI Analyst – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-30-search-007",
+          "title": "BI Developer – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-30-search-008",
+          "title": "MIS Executive – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-30-search-009",
+          "title": "MIS Analyst – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-30-search-010",
+          "title": "Reporting Analyst – Delhi",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Delhi&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-31",
+      "title": "💼 Job Opportunities — Gurugram",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-31-search-001",
+          "title": "Data Analyst – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-31-search-002",
+          "title": "Junior Data Analyst – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-31-search-003",
+          "title": "Business Analyst – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-31-search-004",
+          "title": "Junior Business Analyst – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-31-search-005",
+          "title": "Power BI Developer – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-31-search-006",
+          "title": "Power BI Analyst – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-31-search-007",
+          "title": "BI Developer – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-31-search-008",
+          "title": "MIS Executive – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-31-search-009",
+          "title": "MIS Analyst – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-31-search-010",
+          "title": "Reporting Analyst – Gurugram",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Gurugram&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-32",
+      "title": "💼 Job Opportunities — Noida",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-32-search-001",
+          "title": "Data Analyst – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-32-search-002",
+          "title": "Junior Data Analyst – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-32-search-003",
+          "title": "Business Analyst – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-32-search-004",
+          "title": "Junior Business Analyst – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-32-search-005",
+          "title": "Power BI Developer – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-32-search-006",
+          "title": "Power BI Analyst – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-32-search-007",
+          "title": "BI Developer – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-32-search-008",
+          "title": "MIS Executive – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-32-search-009",
+          "title": "MIS Analyst – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-32-search-010",
+          "title": "Reporting Analyst – Noida",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Noida&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-33",
+      "title": "💼 Job Opportunities — Jaipur",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-33-search-001",
+          "title": "Data Analyst – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-33-search-002",
+          "title": "Junior Data Analyst – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-33-search-003",
+          "title": "Business Analyst – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-33-search-004",
+          "title": "Junior Business Analyst – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-33-search-005",
+          "title": "Power BI Developer – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-33-search-006",
+          "title": "Power BI Analyst – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-33-search-007",
+          "title": "BI Developer – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-33-search-008",
+          "title": "MIS Executive – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-33-search-009",
+          "title": "MIS Analyst – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-33-search-010",
+          "title": "Reporting Analyst – Jaipur",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Jaipur&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-34",
+      "title": "💼 Job Opportunities — Indore",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-34-search-001",
+          "title": "Data Analyst – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-34-search-002",
+          "title": "Junior Data Analyst – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-34-search-003",
+          "title": "Business Analyst – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-34-search-004",
+          "title": "Junior Business Analyst – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-34-search-005",
+          "title": "Power BI Developer – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-34-search-006",
+          "title": "Power BI Analyst – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-34-search-007",
+          "title": "BI Developer – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-34-search-008",
+          "title": "MIS Executive – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-34-search-009",
+          "title": "MIS Analyst – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-34-search-010",
+          "title": "Reporting Analyst – Indore",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Indore&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-35",
+      "title": "💼 Job Opportunities — Bengaluru",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-35-search-001",
+          "title": "Data Analyst – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-35-search-002",
+          "title": "Junior Data Analyst – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-35-search-003",
+          "title": "Business Analyst – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-35-search-004",
+          "title": "Junior Business Analyst – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-35-search-005",
+          "title": "Power BI Developer – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-35-search-006",
+          "title": "Power BI Analyst – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-35-search-007",
+          "title": "BI Developer – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-35-search-008",
+          "title": "MIS Executive – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-35-search-009",
+          "title": "MIS Analyst – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-35-search-010",
+          "title": "Reporting Analyst – Bengaluru",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Bengaluru&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-36",
+      "title": "💼 Job Opportunities — Hyderabad",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-36-search-001",
+          "title": "Data Analyst – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-36-search-002",
+          "title": "Junior Data Analyst – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-36-search-003",
+          "title": "Business Analyst – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-36-search-004",
+          "title": "Junior Business Analyst – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-36-search-005",
+          "title": "Power BI Developer – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-36-search-006",
+          "title": "Power BI Analyst – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-36-search-007",
+          "title": "BI Developer – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-36-search-008",
+          "title": "MIS Executive – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-36-search-009",
+          "title": "MIS Analyst – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-36-search-010",
+          "title": "Reporting Analyst – Hyderabad",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Hyderabad&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-37",
+      "title": "💼 Job Opportunities — Chandigarh",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-37-search-001",
+          "title": "Data Analyst – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-37-search-002",
+          "title": "Junior Data Analyst – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-37-search-003",
+          "title": "Business Analyst – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-37-search-004",
+          "title": "Junior Business Analyst – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-37-search-005",
+          "title": "Power BI Developer – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-37-search-006",
+          "title": "Power BI Analyst – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-37-search-007",
+          "title": "BI Developer – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-37-search-008",
+          "title": "MIS Executive – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-37-search-009",
+          "title": "MIS Analyst – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-37-search-010",
+          "title": "Reporting Analyst – Chandigarh",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Chandigarh&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-38",
+      "title": "💼 Job Opportunities — Chennai",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-38-search-001",
+          "title": "Data Analyst – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-38-search-002",
+          "title": "Junior Data Analyst – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-38-search-003",
+          "title": "Business Analyst – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-38-search-004",
+          "title": "Junior Business Analyst – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-38-search-005",
+          "title": "Power BI Developer – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-38-search-006",
+          "title": "Power BI Analyst – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-38-search-007",
+          "title": "BI Developer – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-38-search-008",
+          "title": "MIS Executive – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-38-search-009",
+          "title": "MIS Analyst – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-38-search-010",
+          "title": "Reporting Analyst – Chennai",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Chennai&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "section-39",
+      "title": "💼 Job Opportunities — Kolkata",
+      "status": "published",
+      "searches": [
+        {
+          "id": "section-39-search-001",
+          "title": "Data Analyst – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-39-search-002",
+          "title": "Junior Data Analyst – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Data%20Analyst&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-39-search-003",
+          "title": "Business Analyst – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-39-search-004",
+          "title": "Junior Business Analyst – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Junior%20Business%20Analyst&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-39-search-005",
+          "title": "Power BI Developer – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Developer&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-39-search-006",
+          "title": "Power BI Analyst – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Power%20BI%20Analyst&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-39-search-007",
+          "title": "BI Developer – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=BI%20Developer&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-39-search-008",
+          "title": "MIS Executive – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Executive&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-39-search-009",
+          "title": "MIS Analyst – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=MIS%20Analyst&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        },
+        {
+          "id": "section-39-search-010",
+          "title": "Reporting Analyst – Kolkata",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=Reporting%20Analyst&location=Kolkata&f_TPR=r86400&sortBy=DD",
+          "status": "published"
+        }
+      ]
+    }
+  ]
+}

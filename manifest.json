@@ -1,9 +1,10 @@
 {
   "name": "LinkedIn Job Search Dashboard",
-  "short_name": "LinkedIn Jobs",
-  "start_url": "./",
+  "short_name": "Job Dashboard",
+  "description": "Static India-focused job search dashboard for Data, BI and Business Analyst roles.",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f3f6fa",
-  "theme_color": "#0a66c2",
-  "description": "Last 24 hours LinkedIn job and hiring-post search dashboard."
+  "background_color": "#f2f5f7",
+  "theme_color": "#16334e",
+  "lang": "en-IN"
 }

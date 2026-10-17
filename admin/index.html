@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#102a43">
+  <title>Content Admin | LinkedIn Job Search Dashboard</title>
+  <link rel="stylesheet" href="./admin.css">
+  <script src="./config.js"></script>
+  <script defer src="./admin.js"></script>
+</head>
+<body>
+  <main class="admin-shell">
+    <header class="admin-header">
+      <div>
+        <p class="eyebrow">LINKEDIN JOB SEARCH DASHBOARD</p>
+        <h1>Search content admin</h1>
+        <p>Proposed edits stay unpublished until you review and merge their GitHub pull request.</p>
+        <a class="site-return" href="../">← Return to Job Search Hub</a>
+      </div>
+      <button id="signOutButton" class="button secondary" type="button" hidden>Sign out</button>
+    </header>
+
+    <section id="loginPanel" class="panel">
+      <h2>Sign in to manage content</h2>
+      <p>Use the authorized GitHub account. This page has no repository write token; changes are submitted as a pull request for manual review.</p>
+      <button id="signInButton" class="button primary" type="button">Sign in with GitHub</button>
+      <p id="loginStatus" class="status-message" role="status" aria-live="polite"></p>
+      <p id="setupNote" class="notice" hidden>Admin authentication is not configured yet. Complete the setup steps in <a href="../ADMIN_SETUP.md">ADMIN_SETUP.md</a>.</p>
+    </section>
+
+    <section id="editorPanel" class="panel" hidden>
+      <div class="toolbar">
+        <div>
+          <h2>Job-search sections</h2>
+          <p id="contentSummary" class="muted"></p>
+        </div>
+        <button id="addSectionButton" class="button secondary" type="button">Add section</button>
+      </div>
+      <div id="sectionsEditor" class="sections-editor"></div>
+      <div class="approval-actions">
+        <button id="previewButton" class="button secondary" type="button">Preview changes</button>
+        <button id="submitButton" class="button primary" type="button" disabled>Submit for GitHub Approval</button>
+      </div>
+      <p id="statusMessage" class="status-message" role="status" aria-live="polite"></p>
+      <section id="previewPanel" class="preview-panel" aria-labelledby="previewTitle" hidden>
+        <h2 id="previewTitle">Public-site preview</h2>
+        <p class="muted">Only published sections and shortcuts appear on the public site after this pull request is merged.</p>
+        <div id="previewContent"></div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* ==========================================================================
+   main.css — Base styles: reset, typography, and foundational layout,
+   including the original "Mobile / Phone enhancements" media query (kept
+   inline here, NOT in responsive.css) because several of its rules
+   (header/.info/section/.category border-radius, footer padding) are
+   later intentionally overridden by components.css's "premium" rules —
+   moving it after components.css would flip that override direction and
+   change the rendered mobile layout. See ARCHITECTURE.md for details.
+   Loaded first; components.css and responsive.css build on top of this.
+   ========================================================================== */
+
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f3f6fa;color:#172033}.wrap{width:100%;max-width:none;margin:0 auto;padding:clamp(12px,2vw,32px)}header{background:linear-gradient(135deg,#0a66c2,#004182);color:white;padding:28px;border-radius:18px;margin-bottom:20px}h1{margin:0 0 8px}.sub{margin:0;opacity:.9}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}button{border:0;border-radius:10px;padding:12px 16px;font-weight:700;cursor:pointer}.main{background:#ffd54a;color:#172033}.close{background:#ffffff22;color:#fff;border:1px solid #ffffff55}.info,section{background:#fff;border-radius:16px;padding:20px;margin-bottom:20px;box-shadow:0 4px 16px #0000000d}.info{border-left:4px solid #0a66c2}.head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:15px}h2{margin:0}small{color:#667085}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}a{text-decoration:none;color:#07579f;background:#eef5fc;border:1px solid #d6e7f8;padding:10px;border-radius:9px;font-weight:600}a:hover{background:#e2f0ff}footer{text-align:center;color:#667085;font-size:13px}
+.category{background:#fff;border-radius:16px;padding:20px;margin-bottom:20px;box-shadow:0 4px 16px #0000000d}
+.category-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:15px}
+.category-head h2{margin:0}
+.category-head h2 span{color:#667085;font-size:14px;font-weight:500}
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.links a{text-decoration:none;color:#07579f;background:#eef5fc;border:1px solid #d6e7f8;padding:10px;border-radius:9px;font-weight:600}
+.links a:hover{background:#e2f0ff}
+.cat-btn{background:#ffd54a;color:#172033;border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+
+
+
+/* Mobile / Phone enhancements */
+@media (max-width: 600px) {
+  body { font-size: 14px; }
+  .wrap { padding: 10px; width: 100%; }
+  header { padding: 18px 14px; border-radius: 14px; }
+  h1 { font-size: 22px; line-height: 1.25; }
+  .sub { font-size: 13px; line-height: 1.45; }
+  .actions { display: grid; grid-template-columns: 1fr; gap: 8px; }
+  .actions button { width: 100%; min-height: 46px; font-size: 14px; }
+  .info, section, .category { padding: 14px; border-radius: 13px; }
+  .head, .category-head { align-items: stretch; }
+  .head h2, .category-head h2 { font-size: 18px; }
+  .head button, .category-head button, .cat-btn { width: 100%; min-height: 44px; }
+  .grid, .links { grid-template-columns: 1fr !important; gap: 8px; }
+  .grid a, .links a {
+    display: block;
+    width: 100%;
+    min-height: 46px;
+    padding: 12px;
+    font-size: 14px;
+  }
+  footer { padding: 10px 4px 20px; line-height: 1.5; }
+}
+
+/* Touch-friendly controls */
+button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+a { cursor: pointer; }
+
+.mobile-toolbar {
+  display:flex; justify-content:space-between; align-items:center; gap:10px;
+  background:#eaf4ff; border:1px solid #cfe5fa; border-radius:13px;
+  padding:10px 12px; margin:0 0 12px;
+}
+.mobile-toolbar div { display:flex; flex-direction:column; gap:2px; }
+.mobile-toolbar small { color:#667085; }
+.mobile-toolbar button { background:#fff; color:#07579f; padding:9px 12px; }
